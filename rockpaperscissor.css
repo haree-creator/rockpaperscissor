@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  margin: 1rem;
+}
+.main {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon .move {
+  width: 100px;
+}
+
+.scorebtn {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.reset-score {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
